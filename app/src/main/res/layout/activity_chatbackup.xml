@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".settings.chats.backup.ChatbackupActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_backup"
+        android:padding="5dp"
+        android:id="@+id/backup_ic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_toEndOf="@id/backup_ic"
+        android:layout_toRightOf="@id/backup_ic"
+        android:text="@string/last_backup"
+        android:textColor="@color/greenText"
+        android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:text="@string/backup_text"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/back_up"
+        android:textColor="@android:color/white"
+        android:background="@color/greenButton"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_drive"
+            android:padding="5dp"
+            android:id="@+id/drive_ic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_toEndOf="@id/drive_ic"
+            android:layout_toRightOf="@id/drive_ic"
+            android:text="@string/google_drive_settings"
+            android:textColor="@color/greenText"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/google_drive_settings"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="5dp"
+        android:name="com.kingslayer.whatsappclone.settings.chats.backup.ChatBackupFragment"/>
+</LinearLayout>

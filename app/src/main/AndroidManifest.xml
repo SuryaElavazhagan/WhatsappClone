@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kingslayer.whatsappclone">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera2.full" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:label="@string/action_settings"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <!-- SETTINGS ACTIVITY SUB FRAGMENTS -->
+        <activity
+            android:name=".settings.account.AccountActivity"
+            android:label="@string/account"
+            android:parentActivityName=".settings.SettingsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".settings.SettingsActivity" />
+        </activity>
+
+        <!-- ACCOUNT ACTIVITY SUB FRAGMENTS -->
+        <!-- PRIVACY SETTINGS -->
+        <activity
+            android:name=".settings.account.privacy.PrivacyActivity"
+            android:label="@string/privacy"
+            android:parentActivityName=".settings.account.AccountActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".settings.account.AccountActivity" />
+        </activity>
+        <!-- SECURITY SETTINGS -->
+        <activity
+            android:name=".settings.account.security.SecurityActivity"
+            android:label="@string/security"
+            android:parentActivityName=".settings.account.AccountActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".settings.account.AccountActivity" />
+        </activity>
+        <!-- TWO STEP VERIFICATION SETTINGS -->
+        <activity
+            android:name=".settings.account.twostepverification.TwoStepVerificationActivity"
+            android:label="@string/two_step_verification"
+            android:parentActivityName=".settings.account.AccountActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".settings.account.AccountActivity" />
+        </activity>
+        <!-- CHANGE NUMBER SETTINGS -->
+        <activity
+            android:name=".settings.account.changenumber.ChangeNumberActivity"
+            android:label="@string/change_number"
+            android:parentActivityName=".settings.account.AccountActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".settings.account.AccountActivity" />
+        </activity>
+        <!-- DELETE ACCOUNT SETTINGS -->
+        <activity
+            android:name=".settings.account.deleteaccount.DeleteAccountActivity"
+            android:label="@string/delete_my_account"
+            android:parentActivityName=".settings.account.AccountActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".settings.account.AccountActivity" />
+        </activity>
+
+        <!-- CHAT SETTINGS -->
+        <activity
+            android:name=".settings.chats.ChatSettingActivity"
+            android:label="@string/chats"
+            android:parentActivityName=".settings.SettingsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".settings.SettingsActivity" />
+        </activity>
+        <!-- CHAT BACKUP SETTINGS -->
+        <activity
+            android:name=".settings.chats.backup.ChatbackupActivity"
+            android:label="@string/chat_backup"
+            android:parentActivityName=".settings.chats.ChatSettingActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".settings.chats.ChatSettingActivity" />
+        </activity>
+        <activity android:name=".settings.chats.history.ChatHistoryActivity"
+            android:label="@string/chat_history"
+            android:parentActivityName=".chats.ChatActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".settings.chats.ChatSettingActivity"/>
+        </activity>
+        <activity android:name=".settings.notifications.NotificationSettingsActivity"
+            android:label="@string/notifications"
+            android:parentActivityName=".settings.SettingsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".settings.SettingsActivity"/>
+        </activity>
+        <activity android:name=".settings.datastorage.DataAndStorageActivity"
+            android:label="@string/data_and_storage_usage"
+            android:parentActivityName=".settings.SettingsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".settings.SettingsActivity"/>
+        </activity>
+        <activity android:name=".settings.help.HelpActivity"
+            android:label="@string/faq"
+            android:parentActivityName=".settings.SettingsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".settings.SettingsActivity"/>
+        </activity>
+        <activity android:name=".chats.ChatActivity"/>
+    </application>
+
+</manifest>

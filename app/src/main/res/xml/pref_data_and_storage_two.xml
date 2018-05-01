@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:layout="@layout/custom_preference_category_layout"
+        android:title="@string/call_settings">
+        <CheckBoxPreference
+            android:layout="@layout/custom_check_preference_layout"
+            android:title="@string/low_data_usage"
+            android:key="@string/low_data_usage_key"
+            android:summary="@string/low_data_summary"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

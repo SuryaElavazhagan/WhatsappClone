@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="personal_info_entries">
+        <item>@string/privacy_everyone</item>
+        <item>@string/privacy_my_contacts</item>
+        <item>@string/privacy_nobody</item>
+    </array>
+
+    <array name="personal_info_values">
+        <item>@string/privacy_everyone_value</item>
+        <item>@string/privacy_my_contacts_value</item>
+        <item>@string/privacy_nobody_value</item>
+    </array>
+
+    <array name="languages">
+        <item>@string/phones_language</item>
+        <item>@string/english</item>
+        <item>@string/hindi</item>
+        <item>@string/tamil</item>
+        <item>@string/tulu</item>
+        <item>@string/kannada</item>
+        <item>@string/malayalam</item>
+        <item>@string/telugu</item>
+    </array>
+
+    <array name="language_values">
+        <item>@string/english_value</item>
+        <item>@string/english_value</item>
+        <item>@string/hindi_value</item>
+        <item>@string/tamil_value</item>
+        <item>@string/tulu_value</item>
+        <item>@string/kannada_value</item>
+        <item>@string/malayalam_value</item>
+        <item>@string/telugu_value</item>
+    </array>
+
+    <array name="font_size">
+        <item>@string/small</item>
+        <item>@string/medium</item>
+        <item>@string/large</item>
+    </array>
+
+    <array name="backup_to_drive">
+        <item>@string/never</item>
+        <item>@string/tap_backup</item>
+        <item>@string/daily</item>
+        <item>@string/weekly</item>
+        <item>@string/monthly</item>
+    </array>
+
+    <array name="choosing_account">
+        <item>@string/my_email</item>
+        <item>@string/add_account</item>
+    </array>
+
+    <array name="backup_over">
+        <item>@string/over_wifi</item>
+        <item>@string/wifi_cellular</item>
+    </array>
+
+    <string-array name="ringtones">
+        <item>Default ringtone</item>
+        <item>None</item>
+        <item>Beginning</item>
+        <item>The big adventure</item>
+        <item>Bright morning</item>
+        <item>Coconuts</item>
+        <item>Crackle</item>
+        <item>Cuckoo clock</item>
+        <item>Duet</item>
+        <item>Copycat</item>
+        <item>Hangouts call</item>
+        <item>Hangouts message</item>
+        <item>Hotline</item>
+        <item>Futterby</item>
+        <item>End note</item>
+        <item>Early twilight</item>
+    </string-array>
+
+    <string-array name="vibration">
+        <item>Off</item>
+        <item>Default</item>
+        <item>Short</item>
+        <item>Long</item>
+    </string-array>
+
+    <string-array name="pop_notification">
+        <item>No popup</item>
+        <item>Only when screen "on"</item>
+        <item>Only when screen "off"</item>
+        <item>Always show popup</item>
+    </string-array>
+
+    <string-array name="light">
+        <item>None</item>
+        <item>White</item>
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Cyan</item>
+        <item>Blue</item>
+        <item>Purple</item>
+    </string-array>
+
+    <string-array name="media">
+        <item>Photos</item>
+        <item>Audio</item>
+        <item>Videos</item>
+        <item>Documents</item>
+    </string-array>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:layout="@layout/custom_preference_category_layout"
+        android:title="@string/media_auto_download">
+
+        <MultiSelectListPreference
+            android:layout="@layout/custom_list_preference_layout"
+            android:title="@string/mobile_data"
+            android:key="@string/mobile_data_key"
+            android:entries="@array/media"
+            android:entryValues="@array/media"/>
+        <MultiSelectListPreference
+            android:layout="@layout/custom_list_preference_layout"
+            android:title="@string/wifi_media"
+            android:key="@string/wifi_key"
+            android:entries="@array/media"
+            android:entryValues="@array/media"/>
+        <MultiSelectListPreference
+            android:layout="@layout/custom_list_preference_layout"
+            android:title="@string/roaming"
+            android:key="@string/roaming"
+            android:entries="@array/media"
+            android:entryValues="@array/media"/>
+    </PreferenceCategory>
+</PreferenceScreen>

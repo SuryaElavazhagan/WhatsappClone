@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:layout="@layout/custom_list_preference_layout"
+        android:title="@string/app_language_title"
+        android:key="@string/app_language_key"
+        android:entries="@array/languages"
+        android:entryValues="@array/language_values"/>
+
+    <PreferenceCategory
+        android:layout="@layout/custom_preference_category_layout"
+        android:title="@string/chat_settings_title">
+
+        <CheckBoxPreference
+            android:layout="@layout/custom_check_preference_layout"
+            android:title="@string/enter_is_send"
+            android:key="@string/enter_key"
+            android:summaryOff="@string/summary_off"
+            android:summaryOn="@string/summary_on"/>
+
+        <ListPreference
+            android:layout="@layout/custom_list_preference_layout"
+            android:title="@string/font_size"
+            android:summary="@string/font_summary"
+            android:entries="@array/font_size"
+            android:entryValues="@array/font_size"/>
+    </PreferenceCategory>
+</PreferenceScreen>

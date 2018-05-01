@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings.account.security.SecurityActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_background"
+        android:id="@+id/security_circle"
+        android:layout_margin="16dp"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_lock"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/security_circle"
+        android:layout_marginTop="6dp"
+        android:padding="16dp"
+        android:id="@+id/security_guide"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:text="@string/security_guide"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/security_guide"
+        android:padding="16dp"
+        android:id="@+id/mLearnMore"
+        android:text="@string/learn_more"
+        android:textColor="@color/greenText"
+        android:textSize="12sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorSeparator"
+        android:layout_below="@id/mLearnMore"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mLearnMore"
+        android:id="@+id/show_notifications"
+        android:name="com.kingslayer.whatsappclone.settings.account.security.SecurityFragment"/>
+</RelativeLayout>

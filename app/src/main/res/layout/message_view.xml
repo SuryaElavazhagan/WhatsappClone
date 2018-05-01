@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E6E6D5"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mReceived"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_rectangle_received"
+        android:padding="10dp"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mReceivedMessage"
+            android:text="Hello there!"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mReceivedTime"
+            android:text="7:14 PM"
+            android:textSize="10sp"
+            android:layout_marginStart="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mReceived"
+        android:id="@+id/mSent"
+        android:background="@drawable/rounded_rectancle_sent"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mSentMessage"
+            android:text="Hello there!"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mSentTime"
+            android:text="7:14 PM"
+            android:textSize="10sp"
+            android:layout_marginStart="5dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_read"
+            android:id="@+id/isSent"
+            android:layout_gravity="bottom"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"/>
+    </LinearLayout>
+</RelativeLayout>

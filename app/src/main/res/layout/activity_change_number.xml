@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".settings.account.changenumber.ChangeNumberActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_phone"
+        android:id="@+id/first_mobile"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_more"
+        android:layout_toRightOf="@+id/first_mobile"
+        android:layout_toEndOf="@+id/first_mobile"
+        android:layout_marginTop="40dp"
+        android:id="@+id/move_ic" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_more"
+        android:layout_toRightOf="@+id/move_ic"
+        android:layout_toEndOf="@+id/move_ic"
+        android:layout_marginTop="40dp"
+        android:id="@+id/move_ic_2" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_phone"
+        android:layout_toEndOf="@+id/move_ic_2"
+        android:layout_toRightOf="@id/move_ic_2"
+        android:id="@+id/second_mobile" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_mobile"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:id="@+id/para_one"
+        android:text="Changing your phone number will migrate your account info, groups and settings."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/para_one"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:id="@+id/para_two"
+        android:text="Before proceeding, please confirm that you are able to receive SMS or calls at your new number."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/para_two"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:text="If you have both a new phone and a new number, first change your number on your old phone."/>
+</RelativeLayout>

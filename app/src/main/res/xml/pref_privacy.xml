@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="@string/privacy_everyone"
+        android:entries="@array/personal_info_entries"
+        android:entryValues="@array/personal_info_values"
+        android:key="@string/privacy_last_seen"
+        android:title="@string/privacy_last_seen_title"
+        android:layout="@layout/custom_list_preference_layout"/>
+    <ListPreference
+        android:defaultValue="@string/privacy_everyone"
+        android:entries="@array/personal_info_entries"
+        android:entryValues="@array/personal_info_values"
+        android:key="@string/privacy_profile_photo"
+        android:title="@string/privacy_profile_photo_title"
+        android:layout="@layout/custom_list_preference_layout"/>
+    <ListPreference
+        android:defaultValue="@string/privacy_everyone"
+        android:entries="@array/personal_info_entries"
+        android:entryValues="@array/personal_info_values"
+        android:key="@string/privacy_about"
+        android:title="@string/privacy_about_title"
+        android:layout="@layout/custom_list_preference_layout"/>
+</PreferenceScreen>

@@ -1,0 +1,184 @@
+<resources>
+    <string name="app_name">WhatsApp</string>
+    <string name="tab_text_1">CHATS</string>
+    <string name="tab_text_2">STATUS</string>
+    <string name="tab_text_3">CALLS</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tap_to_add_status_update">Tap to add status update</string>
+    <string name="my_status">My status</string>
+    <string name="viewed_updates">Viewed updates</string>
+    <string name="action_search">Search</string>
+    <string name="account">Account</string>
+    <string name="chats">Chats</string>
+    <string name="notifications">Notifications</string>
+    <string name="data_and_storage_usage">Data and storage usage</string>
+    <string name="invite_a_friend">Invite a friend</string>
+    <string name="privacy">Privacy</string>
+    <string name="security">Security</string>
+    <string name="two_step_verification">Two-step verification</string>
+    <string name="change_number">Change number</string>
+    <string name="delete_my_account">Delete my account</string>
+
+    <string name="delete_effects">\u2022 Delete your account from WhatsApp\n\u2022 Erase your message history\n\u2022 Delete you from all of your WhatsApp groups</string>
+
+    <string name="privacy_last_seen" translatable="false">last_seen</string>
+    <string name="privacy_last_seen_title" translatable="false">Last seen</string>
+
+    <string name="privacy_profile_photo" translatable="false">profile_photo</string>
+    <string name="privacy_profile_photo_title" translatable="false">Profile photo</string>
+
+    <string name="privacy_about" translatable="false">about</string>
+    <string name="privacy_about_title" translatable="false">About</string>
+
+    <string name="privacy_everyone" translatable="false">Everyone</string>
+    <string name="privacy_my_contacts" translatable="false">My contacts</string>
+    <string name="privacy_nobody" translatable="false">Nobody</string>
+
+    <string name="chat_settings_title" translatable="false">Chat settings</string>
+    <string name="app_language_key" translatable="false">app_language</string>
+    <string name="app_language_title" translatable="false">App Language</string>
+    <string name="phones_language" translatable="false">Phone\'s Language(English)</string>
+    <string name="english" translatable="false">English</string>
+    <string name="hindi" translatable="false">हिन्दी</string>
+    <string name="tamil" translatable="false">தமிழ்</string>
+    <string name="marathi" translatable="false">मराठी</string>
+    <string name="malayalam" translatable="false">മലയാളം</string>
+    <string name="telugu" translatable="false">తెలుగు</string>
+    <string name="kannada" translatable="false">ಕನ್ನಡ</string>
+    <string name="tulu" translatable="false">ತುಳು</string>
+
+    <string name="english_value" translatable="false">English</string>
+    <string name="hindi_value" translatable="false">Hindi</string>
+    <string name="tamil_value" translatable="false">Thamizh</string>
+    <string name="marathi_value" translatable="false">Marathi</string>
+    <string name="malayalam_value" translatable="false">Malayalam</string>
+    <string name="kannada_value" translatable="false">Kannada</string>
+    <string name="tulu_value" translatable="false">Tulu</string>
+    <string name="telugu_value" translatable="false">Telugu</string>
+
+    <string name="enter_is_send">Enter is send</string>
+    <string name="summary_off">Enter key will add a new line</string>
+    <string name="summary_on">Enter key will send your message</string>
+    <string name="enter_key">enter_key</string>
+
+    <string name="font_size">Font size : </string>
+    <string name="font_summary">Font size for your chat screen</string>
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+
+    <string name="security_notification_key">show_security_notifications</string>
+    <string name="security_notification_title">Show security notifications</string>
+    <string name="security_notification_summary">Turn on this setting to receive notifications when a contact\'s security code has changed. Your messages and calls are encrypted regardless of this setting.</string>
+
+    <string name="privacy_everyone_value" translatable="false">Everyone</string>
+    <string name="privacy_my_contacts_value" translatable="false">My contacts</string>
+    <string name="privacy_nobody_value" translatable="false">Nobody</string>
+    <string name="who_can_see_my_personal_info">Who can see my personal info</string>
+    <string name="status">Status</string>
+    <string name="no_contacts_selected">No contacts selected</string>
+    <string name="live_location">Live location</string>
+    <string name="last_seen_warning">If you don\'t share your Last Seen, you won\'t be able to see other people\'s Last Seen</string>
+    <string name="messaging">Messaging</string>
+    <string name="blocked_contacts_5">Blocked contacts : 5</string>
+    <string name="read_receipts_warning">If you turn off read receipts, you won\'t be able to ssee read receipts from other people.Read receipts are always sent for group chats.</string>
+    <string name="list_of_contacts_that_you_have_blocked">List of contacts that you have blocked</string>
+    <string name="read_receipts">Read receipts</string>
+    <string name="security_guide">Your messages and calls are secured with end-to-end encryption, which means WhatsApp and third parties can\'t read or listen to them.</string>
+    <string name="learn_more">Learn more about WhatsApp security</string>
+    <string name="two_step_verification_guide">Two-step verification is enabled. You\'ll need to enter your PIN when registering your phone number with WhatsApp again.</string>
+    <string name="disable">Disable</string>
+    <string name="change_pin">Change PIN</string>
+    <string name="change_email_address">Change email address</string>
+    <string name="next">Next</string>
+    <string name="delete_account_warning">DELETING YOUR ACCOUNT WILL:</string>
+    <string name="delete_instructions">To delete your account, confirm your country code and enter your phone number.</string>
+    <string name="india">India</string>
+    <string name="delete_my_account_btn">DELETE MY ACCOUNT</string>
+    <string name="phone_number">phone number</string>
+    <string name="camera_text">Hold for video, tap for photo</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="chat_backup">Chat backup</string>
+    <string name="chat_history">Chat history</string>
+    <string name="last_backup">Last Backup</string>
+
+    <string name="backup_text" translatable="false">Local: 3:41 AM\nGoogle Drive: Never\n\nBack up your messages and media to Google Drive. You can restore them when you reinstall WhatsApp. Your messages and media will also back up to your phone\'s internal storage. Media and messages you back up are not protected by WhatsApp end-to-end encryption while in Google Drive.</string>
+    <string name="back_up" translatable="false">Back up</string>
+    <string name="google_drive_settings" translatable="false">Google Drive settings</string>
+
+    <string name="backup_to_drive" translatable="false">Back up to Google Drive</string>
+    <string name="backup_key" translatable="false">backup_to_drive</string>
+    <string name="never" translatable="false">Never</string>
+    <string name="tap_backup" translatable="false">Only when I tap \"Back up\"</string>
+    <string name="daily" translatable="false">Daily</string>
+    <string name="weekly" translatable="false">Weekly</string>
+    <string name="monthly" translatable="false">Monthly</string>
+
+    <string name="account_key" translatable="false">account</string>
+    <string name="my_email" translatable="false">surya.ela97@gmail.com</string>
+    <string name="add_account" translatable="false">Add account</string>
+
+    <string name="backup_over" translatable="false">Back up over</string>
+    <string name="backup_over_key" translatable="false">backup_over</string>
+    <string name="over_wifi" translatable="false">Wi-Fi</string>
+    <string name="wifi_cellular" translatable="false">Wi-Fi or Cellular</string>
+
+    <string name="conversation_tones">Conversation tones</string>
+    <string name="conversation_tones_summary">Play sounds for incoming and outgoing messages.</string>
+    <string name="message_notifications">Message notifications</string>
+    <string name="group_notifications">Group notifications</string>
+    <string name="call_notification">Call notifications</string>
+
+    <string name="notification_tone">Notification tone</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="popup">Popup notification</string>
+    <string name="light">Light</string>
+
+    <string name="notification_message">notification_msg_key</string>
+    <string name="vibrate_message">vibrate_msg_key</string>
+    <string name="popup_message">popup_msg_key</string>
+    <string name="light_message">light_msg_key</string>
+
+    <string name="notification_group">notification_grp_key</string>
+    <string name="vibrate_group">vibrate_grp_key</string>
+    <string name="popup_group">popup_grp_key</string>
+    <string name="light_group">light_grp_key</string>
+
+    <string name="notification_call">notification_call_key</string>
+    <string name="vibrate_call">vibrate_call_key</string>
+
+    <string name="include_videos" translatable="false">Include videos</string>
+    <string name="email_chat">Email chat</string>
+    <string name="archive_all_chats">Archive all chats</string>
+    <string name="clear_all_chats">Clear all chats</string>
+    <string name="delete_all_chats">Delete all chats</string>
+    <string name="delete_chats_warning">Are you sure you want to delete ALL chats and their messages</string>
+    <string name="delete_media">Delete media from my phone</string>
+    <string name="clear_warning">Are you sure you want to clear messages in ALL chats?</string>
+    <string name="clear_all_messages">CLEAR ALL MESSAGES</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear_all_except_starred">Clear all except starred</string>
+
+    <string name="media_auto_download">Media auto-download</string>
+    <string name="mobile_data_key">mobile_data_key</string>
+    <string name="wifi_key">wifi_key</string>
+    <string name="roaming_key">roaming_key</string>
+
+    <string name="mobile_data">When using mobile data</string>
+    <string name="wifi_media">When connected on Wi-Fi</string>
+    <string name="roaming">When roaming</string>
+
+    <string name="call_settings">Call settings</string>
+    <string name="low_data_usage">Low data usage</string>
+    <string name="low_data_usage_key">low_data_usage_key</string>
+    <string name="low_data_summary">Lower the amount of data used during a WhatsApp call</string>
+    <string name="network_usage">Network usage</string>
+    <string name="storage_usage">Storage usage</string>
+    <string name="media_information">NOTE: Voice messages are always automatically downloaded for best communication experience</string>
+    <string name="faq">FAQ</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="terms_and_perivacy_policy">Terms and Privacy Policy</string>
+    <string name="questions_need_help">Questions? Need help?</string>
+    <string name="type_your_message">Type your message</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:layout="@layout/custom_list_preference_layout"
+        android:title="@string/backup_to_drive"
+        android:key="@string/backup_key"
+        android:entries="@array/backup_to_drive"
+        android:entryValues="@array/backup_to_drive"/>
+
+    <ListPreference
+        android:layout="@layout/custom_list_preference_layout"
+        android:title="@string/account"
+        android:key="@string/account_key"
+        android:entries="@array/choosing_account"
+        android:entryValues="@array/choosing_account"/>
+
+    <ListPreference
+        android:layout="@layout/custom_list_preference_layout"
+        android:title="@string/backup_over"
+        android:key="@string/backup_over_key"
+        android:entries="@array/backup_over"
+        android:entryValues="@array/backup_over"/>
+
+    <CheckBoxPreference
+        android:layout="@layout/custom_check_preference_layout"
+        android:title="@string/include_videos"
+        android:key="@string/include_videos"
+        android:summaryOn="9.2 MB to be uploaded"/>
+</PreferenceScreen>
