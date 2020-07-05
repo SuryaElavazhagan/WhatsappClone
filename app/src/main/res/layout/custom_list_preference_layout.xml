@@ -11,6 +11,7 @@
         android:paddingRight="16dp"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
+        android:paddingVertical="10dp"
         android:id="@android:id/title"
         android:textColor="@android:color/black"
         android:textSize="16sp" />
